@@ -1,0 +1,59 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Table Styles */
+table {
+    width: 100%; /* Full width */
+    margin: 0;
+    border-collapse: collapse;
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+    background-color: white;
+    font-size: 18px; /* Larger font size for better readability */
+    border: 2px solid #ddd; /* Increased border width */
+    table-layout: auto; /* Flexible column widths */
+}
+
+/* Set Column Widths */
+th, td {
+    padding: 15px;
+    text-align: left;
+    border: 2px solid #ddd;
+}
+
+th:nth-child(1), td:nth-child(1) { width: 25%; } /* Title */
+th:nth-child(2), td:nth-child(2) { width: 25%; } /* Code */
+th:nth-child(3), td:nth-child(3) { width: 20%; } /* Live Demo */
+th:nth-child(4), td:nth-child(4) { width: 30%; word-wrap: break-word; } /* Description with word wrapping */
+
+/* Table Headers */
+th {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+}
+
+/* Table Cells */
+td {
+    padding: 15px;
+    border: 2px solid #ddd;
+    text-align: left;
+    background-color: white;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #0056b3;
+}
