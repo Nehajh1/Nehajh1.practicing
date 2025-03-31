@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Challenge Leaderboard</title>
+    <link rel="stylesheet" href="leaderBoard.css">
+</head>
+<body>
+
+    <h1>🏆 30 Days of JavaScript - Leaderboard</h1>
+
+    <div class="form-container">
+        <input type="text" id="firstName" placeholder="First Name" required>
+        <input type="text" id="lastName" placeholder="Last Name" required>
+        <input type="text" id="country" placeholder="Country" required>
+        <input type="number" id="score" placeholder="Score" required>
+        <button onclick="addParticipant()">Add Player</button>
+    </div>
+
+    <div id="leaderboard"></div>
+
+    <script src="leaderBoard.js"></script>
+</body>
+</html>
